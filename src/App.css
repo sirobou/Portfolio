@@ -1,0 +1,30 @@
+.circleGroup {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 1000px;
+}
+
+.circleMember {
+  text-align: center;
+  width: 100px;
+}
+
+.circleShape {
+  align-items: center;
+  background-color: red;
+  border-radius: 50px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
+}
+
+.circleText {
+  color: white;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+}
