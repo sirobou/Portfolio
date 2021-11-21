@@ -1,7 +1,14 @@
 .circle {
   position: fixed;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-color: #f00;
+  background-color: rgb(34, 34, 34);
+  left: 1510px;
+  top: 30px;
+  z-index: 1000;
+  border-color: rgb(34, 34, 34);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: rgb(161, 165, 139);
 }

@@ -130,7 +130,7 @@ body {
   border-radius: 16px;
   background-color: white;
 
-  z-index: 999;
+  z-index: 10000;
 }
 
 .sdbar {

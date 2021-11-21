@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { motion, useMotionValue, useSpring , useViewportScroll, useTransform} from "framer-motion";
 import forest from "../images/forest.jpg"
 import { Parallax , Background } from 'react-parallax'
-
+import { Colorbt } from './colorbt';
 
 export const Initial = () => {
   const cursorX = useMotionValue(-100);
@@ -40,7 +40,7 @@ export const Initial = () => {
           translateY: cursorYSpring,
         }}
       />
-    
+    <Colorbt />
  
     <motion.div
       className="c1"
