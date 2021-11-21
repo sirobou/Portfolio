@@ -40,6 +40,7 @@ export const Initial = () => {
           translateY: cursorYSpring,
         }}
       />
+    
  
     <motion.div
       className="c1"
