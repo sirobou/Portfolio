@@ -31,7 +31,7 @@ export const Initial = () => {
   }, [cursorX , cursorY]);
   return (
     <>
-    <div className="oya">
+    <motion.div className="oya">
             <motion.div
         className="cursor"
         style={{
@@ -86,10 +86,10 @@ export const Initial = () => {
     </motion.div>
     <motion.div animate={{ opacity : [0,1]}} transition={{ delay:7.7, duration:2 }} >
     <motion.div className="sdbar" animate={{ height: [0,65]}} transition={{ delay:7.7, duration:2, repeat: Infinity }} ></motion.div>
-    <div className="tate">Scroll</div>
+    <motion.div className="tate">Scroll</motion.div>
     </motion.div>
     
-    </div>
+    </motion.div>
 
     </>
   );
