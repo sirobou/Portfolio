@@ -1,8 +1,5 @@
-import React, { useState } from 'react'
-import { motion, useMotionValue, useSpring , useViewportScroll, useTransform} from "framer-motion";
-import car from "../images/car.jpg"
+import React from 'react'
 import "./bt.css"
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 export const Colorbt = () => {
 
     return (

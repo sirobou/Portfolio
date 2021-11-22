@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./some.css"
 import { useEffect } from "react";
 import { motion, useMotionValue, useSpring , useViewportScroll, useTransform} from "framer-motion";
 import forest from "../images/forest.jpg"
-import { Parallax , Background } from 'react-parallax'
 import { Colorbt } from './colorbt';
 
 export const Initial = () => {
@@ -29,7 +28,7 @@ export const Initial = () => {
     return () => {
       window.removeEventListener("mousemove", moveCursor);
     };
-  }, []);
+  }, [cursorX , cursorY]);
   return (
     <>
     <div className="oya">

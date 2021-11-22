@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { motion, useMotionValue, useSpring , useViewportScroll, useTransform} from "framer-motion";
+import React from 'react'
+import { motion,  useViewportScroll, useTransform} from "framer-motion";
 import car from "../images/car.jpg"
 import "./some.css"
 
