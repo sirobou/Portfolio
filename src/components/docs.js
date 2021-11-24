@@ -5,11 +5,11 @@ import "./some.css"
 
 export const Docs = () => {
     const { scrollY } = useViewportScroll()
-    const y1 = useTransform(scrollY, [200, 900], [0, 110]);
-    const y2 = useTransform(scrollY, [200, 900], [110, -70]);
+    const y1 = useTransform(scrollY, [200, 900], ["0vh", "15vh"]);
+    const y2 = useTransform(scrollY, [200, 900], ["20vh", "-20vh"]);
     return (
         <motion.div transition={{ delay:7.7, duration:2 }} animate={{display: "flex"}} className="tbg">
-            <motion.div className="cove"></motion.div>
+            <div className="cove"></div>
             <motion.img style={{y : y1 }} className="car" src={car} transition={{duration:10 }}></motion.img>
             <motion.div className="tate1" style={{y: y2}}>Policy</motion.div>
             <div className="GREATNESS">GREATNESS</div>

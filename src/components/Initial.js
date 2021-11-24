@@ -14,7 +14,7 @@ export const Initial = () => {
   const cursorYSpring = useSpring(cursorY, springConfig);
 
   const { scrollY } = useViewportScroll()
-  const c1x = useTransform(scrollY, [0, 600], [1200, 1600]);
+  const c1x = useTransform(scrollY, [0, 600], ["70vw", "95vw"]);
   const forestx = useTransform(scrollY, [0, 800], [0, -40]);
   
   useEffect(() => {
@@ -40,7 +40,7 @@ export const Initial = () => {
         }}
       />
     <Colorbt />
- 
+    
     <motion.div
       className="c1"
       animate={{ width: ["100vw", "2vw"] }}
@@ -68,7 +68,7 @@ export const Initial = () => {
       animate={{ opacity : 1 }}
       transition={{delay:4, duration: 3}}
     ><motion.div  className="center" animate={{ width: ["0vw", "30vw" ] }} transition={{ delay:7, ease:"anticipate"  }} >
-      <motion.div   animate={{ y: -370 }} transition={{ delay:8, ease:"anticipate"  }} >Sirobou Portfolio</motion.div>
+      <motion.div  animate={{ y : "-10em" }} transition={{ delay:7.7, ease:"anticipate"  }} >Sirobou Portfolio</motion.div>
       </motion.div>
     </motion.div>
     <motion.div
@@ -85,7 +85,7 @@ export const Initial = () => {
       <motion.div className="c2cove" style={{width: c1x}} initial={{ opacity : 0 }} animate={{ opacity : [0,1]}} transition={{ delay:7.7, ease:"anticipate"  }}></motion.div>
     </motion.div>
     <motion.div animate={{ opacity : [0,1]}} transition={{ delay:7.7, duration:2 }} >
-    <motion.div className="sdbar" animate={{ height: [0,65]}} transition={{ delay:7.7, duration:2, repeat: Infinity }} ></motion.div>
+    <motion.div className="sdbar" animate={{ height: ["0vh","7vh"]}} transition={{ delay:7.7, duration:2, repeat: Infinity }} ></motion.div>
     <motion.div className="tate">Scroll</motion.div>
     </motion.div>
     

@@ -48,30 +48,25 @@
 
 .center {
   position: absolute;
-  top: 45%;
-  left: 35%;
+  top: 45vh;
+  left: 35vw;
   font-family: Rockwell;
-  font-size: 45px;
-}
-
-.bear {
-  width: 50px;
-  height: 50px;
+  font-size: 4.5vh;
 }
 
 .name {
   position: absolute;
-  left: 280px;
-  font-family: Palatino;
-  font-size: 40px;
+  left: 20vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3vw;
   color: rgb(183, 187, 134);
 }
 
 .words {
   position: absolute;
-  left: 60px;
-  top: 442px;
-  font-size: 118px;
+  left: 4vw;
+  top: 53.9vh;
+  font-size: 7vw;
   font-family: Times New Roman;
   color: rgb(179, 28, 28);
   z-index: 100;
@@ -83,10 +78,10 @@ body {
 
 .forest {
   position: absolute;
-  max-width: 40%;
+  max-width: 30vw;
   height: auto;
-  top: 75px;
-  left: 1050px;
+  top: 7.3vh;
+  left: 64vw;
   opacity: 0.7;
   z-index: 1;
 }
@@ -125,9 +120,9 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 16px;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1vh;
   background-color: white;
 
   z-index: 10000;
@@ -135,13 +130,13 @@ body {
 
 .sdbar {
   display: inline-block;
-  height: 60px;
-  width: 1px;
+  height: 9rem;
+  width: 0.06vw;
   background-color: rgb(200, 200, 216);
   text-align: center;
   position: absolute;
-  top: 750px;
-  left: 1620px;
+  top: 45.3vw;
+  left: 97.8vw;
   z-index: 100;
 }
 
@@ -149,8 +144,8 @@ body {
   position: absolute;
   writing-mode: vertical-rl;
   display: inline-block;
-  left: 1617px;
-  top: 710px;
+  left: 97.6vw;
+  top: 86vh;
   color: rgb(1, 1, 44);
 }
 
@@ -162,24 +157,24 @@ body {
 /* 254255247 */
 .car {
   position: relative;
-  max-width: 50%;
-  max-height: 80%;
+  max-width: 50vw;
+  max-height: 80vh;
   display: flex;
   opacity: 1;
   z-index: 1;
-  left: 300px;
+  left: 18.1vw;
 }
 
 .cove {
   display: inline-flex;
 
-  height: 140px;
-  width: 470px;
+  height: 17vh;
+  width: 40vw;
   background-color: rgb(240, 241, 228);
   text-align: center;
 
   position: absolute;
-  left: 300px;
+  left: 18vw;
   z-index: 10;
   color: white;
 }
@@ -200,13 +195,13 @@ body {
 .forestcove {
   display: inline-flex;
 
-  height: 700px;
-  width: 200px;
+  height: 80vh;
+  width: 10vw;
   background-color: rgb(240, 241, 228);
   text-align: center;
-  left: 850px;
+  left: 53vw;
   position: absolute;
-  top: 74px;
+  top: 7.2vh;
   z-index: 10;
   color: white;
 }
@@ -215,9 +210,9 @@ body {
   position: absolute;
   writing-mode: vertical-rl;
   display: inline-block;
-  top: 1000px;
-  left: 680px;
-  font-size: 190px;
+  top: 119vh;
+  left: 41vw;
+  font-size: 23vh;
   font-family: Times New Roman;
   color: rgb(0, 0, 0);
   z-index: 1000;
@@ -225,9 +220,9 @@ body {
 
 .GREATNESS {
   position: absolute;
-  top: 1000px;
-  left: 950px;
-  font-size: 40px;
+  top: 117vh;
+  left: 57vw;
+  font-size: 5vh;
   font-family: Times New Roman;
   color: rgb(0, 0, 0);
   z-index: 1000;
@@ -235,9 +230,9 @@ body {
 
 .FROM {
   position: absolute;
-  top: 1050px;
-  left: 950px;
-  font-size: 40px;
+  top: 122.5vh;
+  left: 57vw;
+  font-size: 5vh;
   font-family: Times New Roman;
   color: rgb(0, 0, 0);
   z-index: 1000;
@@ -245,9 +240,9 @@ body {
 
 .SMALL {
   position: absolute;
-  top: 1100px;
-  left: 950px;
-  font-size: 40px;
+  top: 128vh;
+  left: 57vw;
+  font-size: 5vh;
   font-family: Times New Roman;
   color: rgb(0, 0, 0);
   z-index: 1000;
@@ -255,19 +250,9 @@ body {
 
 .BEGININGS {
   position: absolute;
-  top: 1150px;
-  left: 950px;
-  font-size: 40px;
-  font-family: Times New Roman;
-  color: rgb(0, 0, 0);
-  z-index: 1000;
-}
-
-.igyou {
-  position: absolute;
-  top: 1300px;
-  left: 950px;
-  font-size: 40px;
+  top: 133.5vh;
+  left: 57vw;
+  font-size: 5vh;
   font-family: Times New Roman;
   color: rgb(0, 0, 0);
   z-index: 1000;
@@ -275,9 +260,9 @@ body {
 
 .witt {
   position: absolute;
-  top: 1300px;
-  left: 950px;
-  font-size: 20px;
+  top: 158vh;
+  left: 57vw;
+  font-size: 3vh;
   font-family: Times New Roman;
   color: rgb(161, 165, 139);
   z-index: 1000;
@@ -285,9 +270,9 @@ body {
 
 .from {
   position: absolute;
-  top: 1325px;
-  left: 950px;
-  font-size: 20px;
+  top: 161vh;
+  left: 57vw;
+  font-size: 3vh;
   font-family: Times New Roman;
   color: rgb(161, 165, 139);
   z-index: 1000;
@@ -299,6 +284,6 @@ body {
   flex-direction: column;
   width: 100vw;
   height: 30vh;
-  top: 1500px;
+  top: 170vh;
   position: absolute;
 }
