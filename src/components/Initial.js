@@ -68,7 +68,7 @@ export const Initial = () => {
       animate={{ opacity : 1 }}
       transition={{delay:4, duration: 3}}
     ><motion.div  className="center" animate={{ width: ["0vw", "30vw" ] }} transition={{ delay:7, ease:"anticipate"  }} >
-      <motion.div  animate={{ y : "-10em" }} transition={{ delay:7.7, ease:"anticipate"  }} >Sirobou Portfolio</motion.div>
+      <motion.div  animate={{ y : "-10em" }} transition={{ delay:7.9, ease:"anticipate"  }} >Sirobou Portfolio</motion.div>
       </motion.div>
     </motion.div>
     <motion.div
@@ -79,7 +79,7 @@ export const Initial = () => {
     >
        <motion.div className="c2" animate={{ width: ["0vw", "70vw"]}} transition={{ delay:7, ease:"anticipate"  }} >
         <motion.div className="redline" animate={{ width: ["0vw", "72vw"]}} transition={{ delay:7, ease:"anticipate"  }} ></motion.div>
-         <motion.div className="name" initial={{ opacity : 0 }} animate={{ width: ["0vw", "80vw"],opacity : [0,1]}} transition={{ delay:7.7, ease:"anticipate"  }} >-Francis Drake-</motion.div>
+         <motion.div className="name" initial={{ opacity : 0 }} animate={{ width: ["0vw", "80vw"],opacity : [0,1]}} transition={{ delay:7.6, ease:"anticipate"  }} >-Francis Drake-</motion.div>
         
       </motion.div>
       <motion.div className="c2cove" style={{width: c1x}} initial={{ opacity : 0 }} animate={{ opacity : [0,1]}} transition={{ delay:7.7, ease:"anticipate"  }}></motion.div>
